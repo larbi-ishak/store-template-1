@@ -5,12 +5,14 @@ function FeatureProduct() {
   return (
     <div className="col">
       <div className="card shadow-sm">
-        <img
-          className="card-img-top bg-dark cover"
-          height="240"
-          alt=""
-          src={Image}
-        />
+        <Link to="/products/1" replace>
+          <img
+            className="card-img-top bg-dark cover"
+            height="240"
+            alt=""
+            src={Image}
+          />
+        </Link>
         <div className="card-body">
           <h5 className="card-title text-center">Nillkin iPhone X cover</h5>
           <p className="card-text text-center text-muted">10000 Ks</p>
